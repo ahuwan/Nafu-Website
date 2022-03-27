@@ -1,0 +1,98 @@
+<!--Declaration-->
+<!DOCTYPE html>
+<html lang="en-US">
+<!--The root element start from here-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Refresh" content="3600">
+	<meta name="description" content="Nafu Academy the best online academy to practice coding">
+	<meta name="keywords" content="HTML, CSS, JavaScript, React, Coding with Nafu">
+	<meta name="author" content="Nafu">
+	<!--CSS: Cascading Style Sheet-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Nafu Website</title>
+</head>
+<body>
+	<div>
+		<!--This is the header section-->
+		<header>
+			<h1 id="title-1" class="title"><span id="washera">Nafu</span> <span id="academy">Website</span></h1>
+			<ul class="menu-list">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="course.html">Courses</a></li>
+				<li><a href="videos.html">Videos</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="applicationform.html" class="active">Apply</a></li>
+				<li><a href="contacts.html">Contacts</a></li>
+			</ul>
+		</header>		
+		<main>		
+			<div class="page-section">
+				<h1>Application Form</h1>
+				<form>
+				<div class="form-group"><label for="demo">First Name</label>
+				<input type="text" name="text" id="demo" placeholder="Your name" /></div>
+				<div class="form-group"><label for="last">Last Name</label>
+				<input type="text" name="text" id="last" placeholder="Your father name" /></div>
+				<div class="form-group"><label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="Your email" /></div>
+				<div class="form-group"><label for="pass">Password</label>
+				<input type="password" name="password" id="pass"/></div>
+				<div class="form-group"><label for="age">Date of birth</label>
+				<input type="date" name="age" id="age"/></div>
+				<div class="form-group"><label for="clr">Your favorite Color</label>
+				<input type="color" name="color" id="clr"/></div>
+				<div class="form-group">
+					<p>What are your skills</p>
+					<input type="checkbox" name="" id="ht"> <label for="ht">HTML</label><br/>
+					<input type="checkbox" name="" id="cs"> <label for="cs">CSS</label><br/>
+					<input type="checkbox" name="" id="js"> <label for="js">JavaScript</label><br/>
+					<input type="checkbox" name="" id="rct"> <label for="rct">React</label><br/>
+					<input type="checkbox" name="" id="rx"> <label for="rx">Redux</label><br/>
+				</div>
+				<div class="form-group">
+					<p>Gender</p>
+					<input type="radio" name="gender" id="fm"/>
+					<label for="fm">Female</label><br/>
+					<input type="radio" name="gender" id="ml"/>
+					<label for="ml">Male</label><br/>
+					<input type="radio" name="gender" id="ot"/>
+					<label for="ot">Other</label>
+				</div>
+				<div class="form-group">
+					<p>Select your country</p>
+
+					<select name="country" id="country">
+						<option value="">~~ Select Country ~~</option>
+						<option value="Ethiopia">Ethiopia</option>
+						<option value="Eritrea">Eritrea</option>
+						<option value="Sudan">Sudan</option>
+						<option value="Kenya">Kenya</option>
+						<option value="Somalia">Somalia</option>
+						<option value="Djibouti">Djibouti</option>		
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="ms">Leave your message</label><br/>
+					<textarea name="message" id="ms" cols="50" rows="20"></textarea>
+				</div>
+				<div class="form-group">
+					<input type="file" name="file">
+				</div>
+				<div class="form-group">
+					<input type="checkbox" name="agree" id="agree"><small><label for="agree"> I agreed that all the information I have provided is true and belongs to me.</small></label>
+				</div>
+				<div class="form-group">
+					<input type="Submit" name="submit" class="btn">
+				</div>
+			</form>
+			</div>
+		</main>
+		<footer class="footer-wrapper">
+			<small>Copyright &copy; 2021 | Nafyad Merga</small>
+			<br/>
+		</footer>
+	</div>
+</body>
+</html>
